@@ -1,0 +1,8 @@
+[tool.ruff]
+select = ["E", "F", "B", "I", "W", "C90", "UP", "RUF100"]
+ignore = ["UP017", "E501"]
+target-version = "py311"
+
+[tool.ruff.lint.isort]
+required-imports = [ "from __future__ import annotations" ]
+force-single-line = true
